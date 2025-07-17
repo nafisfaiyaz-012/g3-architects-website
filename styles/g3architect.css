@@ -305,6 +305,8 @@ main>section {
         font-weight: 600;
         border-radius: 8px;
         border: none;
+        margin-top: 20px;
+        margin-left: 0px;
     }
 
 }
@@ -342,5 +344,18 @@ main>section {
     }
     .feature-love-enjoy {
         flex-direction: column;
+    }
+    .experience-btn {
+        max-width: 340px;
+        max-height: 200px;
+        background-color: #FF900E;
+        color: white;
+        padding: 10px;
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: 8px;
+        border: none;
+        margin-top: 20px;
+        margin-left: 0px;
     }
 }
