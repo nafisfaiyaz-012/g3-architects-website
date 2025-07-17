@@ -138,8 +138,8 @@ main>section {
 }
 
 .fact {
-    max-height: 200px;
-    max-width: 200px;
+    height: 200px;
+    width: 200px;
     border: 1px solid #FF900E;
     padding: 36px;
     border-radius: 8px;
