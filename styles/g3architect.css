@@ -123,6 +123,64 @@ main>section {
     font-weight: 500;
 }
 
+/* Feature love & enjoy styles */
+.feature-love-enjoy {
+    gap: 146px;
+}
+
+.lovendenjoy {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    max-width: 460px;
+    margin-bottom: 24px;
+}
+
+.column-card {
+    max-width: 580px;
+    padding: 30px;
+    margin-top: 20px;
+    box-shadow: -1px 5px 11px -1px rgba(0, 0, 0, 0.61) inset;
+    -webkit-box-shadow: -1px 5px 11px -1px rgba(0, 0, 0, 0.61) inset;
+    -moz-box-shadow: -1px 5px 11px -1px rgba(0, 0, 0, 0.61) inset;
+}
+
+.column-card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.lovendenjoy-description {
+    max-width: 580px;
+}
+
+.column-2>img {
+    width: 100%;
+}
+
+.experience-btn {
+    max-width: 340px;
+    max-height: 200px;
+    background-color: #FF900E;
+    color: white;
+    padding: 42px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    margin-top: -200px;
+    margin-left: -92px;
+}
+
+.first-line {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.experience {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 /* facts styles */
 
 .fact-container {
@@ -232,6 +290,23 @@ main>section {
     .our-features {
         padding: 30px;
     }
+
+    .feature-love-enjoy {
+        flex-direction: column;
+    }
+
+    .experience-btn {
+        max-width: 340px;
+        max-height: 200px;
+        background-color: #FF900E;
+        color: white;
+        padding: 10px;
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: 8px;
+        border: none;
+    }
+
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -260,5 +335,12 @@ main>section {
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         gap: 30px;
+    }
+    .column-card{
+        /* justify-items: center; */
+        margin: 30px auto;
+    }
+    .feature-love-enjoy {
+        flex-direction: column;
     }
 }
